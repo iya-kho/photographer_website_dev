@@ -128,7 +128,7 @@ h2 {
 .item-column {
 	position: relative;
 	padding: 0;
-	width: 300px;
+	width: 300px !important;
 	height: 300px;
 	margin-right: 0.8rem;
 }
@@ -141,14 +141,14 @@ h2 {
 .gallery-item {
 	position: absolute;
 	width: 300px;
-	height: 300px;
+	height: 300px !important;
 	object-fit: cover;
 	padding: 0.5em;
 }
 
 .gallery-item img {
 	width: 300px;
-	height: 300px;
+	height: 300px !important;
 	object-fit: cover;
 }
 .mg-prev, .mg-next {
@@ -351,16 +351,16 @@ footer {
 		margin-top: 1em;
 	}
 	.item-column {
-		width: 220px;
+		width: 220px !important;
 		height: 220px;
 	}
 	.gallery-item{
 		width: 220px;
-		height: 220px;
+		height: 220px !important;
 	}
 	.gallery-item img {
 		width: 220px;
-		height: 220px;
+		height: 220px !important;
 	}
 	#services .container {
 		flex-direction: column;
@@ -427,16 +427,16 @@ footer {
 		height: 150px;
 	}
 	.item-column {
-		width: 400px;
+		width: 400px !important;
 		height: 400px;
 	}
 	.gallery-item{
 		width: 400px;
-		height: 400px;
+		height: 400px !important;
 	}
 	.gallery-item img {
 		width: 400px;
-		height: 400px;
+		height: 400px !important;
 	}
 	.row {
 		justify-content: center;
