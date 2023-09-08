@@ -1,7 +1,7 @@
-// import './assets/style.css';
-// import './assets/maugallery.js';
-// import './assets/bootstrap/bootstrap.css';
-// import './assets/bootstrap/bootstrap.bundle.js';
+import './assets/style.css';
+import './assets/maugallery.js';
+import './assets/bootstrap/bootstrap.css';
+import './assets/bootstrap/bootstrap.bundle.js';
 
 
 $(document).ready(function () {
