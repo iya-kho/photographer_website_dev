@@ -1,5 +1,3 @@
-
-
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -53,7 +51,9 @@ h2 {
 	max-width: 1920px;
 	margin: 0 auto;
 }
-.carousel-inner picture {
+.carousel-inner source,
+.carousel-inner img
+ {
 	max-width: 1920px;
 	height: auto;
 	display: block;
@@ -130,9 +130,7 @@ h2 {
 	padding: 0;
 	width: 300px;
 	height: 300px;
-}
-.row {
-	justify-content: space-between;
+	margin-right: 0.8rem;
 }
 .item-column::after{
 	content: "";
@@ -145,9 +143,9 @@ h2 {
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
-	padding: .5em;
+	padding: 0.5em;
 }
-.gallery-item source,
+
 .gallery-item img {
 	width: 300px;
 	height: 300px;
@@ -161,6 +159,11 @@ h2 {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+
+.img-fluid {
+	width: 470px;
+    vertical-align: middle;
 }
 
 .quote {
@@ -292,7 +295,8 @@ footer {
 	.carousel-inner {
 		max-width: 1180px;
 	}
-	.carousel-inner picture {
+	.carousel-inner source,
+	.carousel-inner img {
 		max-width: 1180px;
 		height: auto;
 		display: block;
@@ -322,7 +326,8 @@ footer {
 	.carousel-inner {
 		max-width: 1000px;
 	}
-	.carousel-inner picture {
+	.carousel-inner source,
+	.carousel-inner img {
 		max-width: 1000px;
 		height: auto;
 		display: block;
@@ -353,7 +358,6 @@ footer {
 		width: 220px;
 		height: 220px;
 	}
-	.gallery-item source,
 	.gallery-item img {
 		width: 220px;
 		height: 220px;
@@ -413,7 +417,8 @@ footer {
 	.carousel-inner {
 		max-width: 650px;
 	}
-	.carousel-inner picture {
+	.carousel-inner source,
+	.carousel-inner img {
 		max-width: 650px;
 		height: auto;
 		display: block;
@@ -429,7 +434,6 @@ footer {
 		width: 400px;
 		height: 400px;
 	}
-	.gallery-item source,
 	.gallery-item img {
 		width: 400px;
 		height: 400px;

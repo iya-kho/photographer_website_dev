@@ -112,51 +112,87 @@
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
-				<picture class="gallery-item" data-gallery-tag="Concert">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-220.webp">
-					<img src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-300.webp" alt="Public at a concert"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Entreprises">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-220.webp">
-					<img src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-300.webp" alt="Portrait of a man in suit"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Entreprises">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-220.webp">
-					<img src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-300.webp" alt="2 women on a business meeting"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Mariages">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-220.webp">
-					<img src="./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-300.webp" alt="Man's and woman's hands"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Portrait">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-220.webp">
-					<img src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-300.webp" alt="Portrait of a man"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Mariages">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-220.webp">
-					<img src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-300.webp" alt="Laughing wedding couple uner a palm tree"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Portrait">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-220.webp">
-					<img src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-300.webp" alt="Portrait of a woman"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Concert">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-220.webp">
-					<img src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-300.webp" alt="Singer on the stage"/>
-				</picture>
-				<picture class="gallery-item" data-gallery-tag="Entreprises">
-					<source media="(max-width:650px)" srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-400.webp">
-					<source media="(max-width:1000px)" srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-220.webp">
-					<img src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-300.webp" alt="Smiling woman with a laptop"/>
-				</picture>
+				<img class="gallery-item" data-gallery-tag="Concert" 
+					alt="Public at a concert"
+					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-220.webp  220w,
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-300.webp  300w,
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-400.webp  400w,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Entreprises" 
+					alt="Portrait of a man in suit"
+					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-220.webp 220w,
+						./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-300.webp 300w,
+						./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Entreprises" 
+					alt="2 women on a business meeting"
+					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-220.webp 220w,
+						./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-300.webp 300w,
+						./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Mariages" 
+					alt="Man's and woman's hands"
+					src="./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-220.webp 220w,
+						./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-300.webp 300w,
+						./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Portrait" 
+					alt="Portrait of a man"
+					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-220.webp 220w,
+						./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-300.webp 300w,
+						./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Mariages" 
+					alt="Laughing wedding couple uner a palm tree"
+					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-220.webp 220w,
+						./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-300.webp 300w,
+						./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Portrait" 
+					alt="Portrait of a woman"
+					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-220.webp 220w,
+						./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp 300w,
+						./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Concert" 
+					alt="Singer on the stage"
+					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-220.webp 220w,
+						./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-300.webp 300w,
+						./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-400.webp 400w,,
+					"
+				>
+				<img class="gallery-item" data-gallery-tag="Entreprises" 
+					alt="Smiling woman with a laptop"
+					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-220.webp"
+					srcset="
+						./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-220.webp 220w,
+						./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-300.webp 300w,
+						./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-400.webp 400w,,
+					"
+				>
 			</div>
 		</div>
 		<div class="quote">
