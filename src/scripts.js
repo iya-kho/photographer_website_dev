@@ -1,9 +1,3 @@
-import './assets/style.css';
-import './assets/bootstrap/bootstrap.css';
-import './assets/maugallery.js';
-import './assets/bootstrap/bootstrap.bundle.js';
-
-
 $(document).ready(function () {
     $('.gallery').mauGallery({
         columns: {
